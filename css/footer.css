@@ -1,0 +1,70 @@
+footer{
+    background-color: var(--primaryBackGroundColor);
+}
+.footer-art{
+    margin-top: 5em;
+    background-color:var(--secondaryBackGroundColor);
+   padding-top: 1em;
+   border-radius: 2em 2em 0 0;
+   /* box-shadow: -1px -1px 20px black; */
+}
+.links{
+    color: var(--firstLinearColor);
+    font-size: 1.5em;
+}
+.introduction-container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.5em;
+}
+.footer-introducntion{
+    font-size: 1.8em;
+    color: var(--firstLinearColor);
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+.footer-logo-title{
+font-size: 2.3em;
+color: var(--firstLinearColor);
+}
+.intro-btn-container{
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-intro-btn{
+    font-size: 0.7em;
+    margin-top: 4em;
+}
+.footer-content-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+}
+.logo-cont{
+    display: grid;
+    justify-content: center;
+
+}
+.footer-list-container{
+    display: grid;
+    justify-content: center;
+}
+.footer-links-container{
+    display: grid;
+    justify-content: center;
+}
+.footer-list-links,.link-list-link{
+    text-decoration: none;
+    color: var(--secondaFontColor);
+   
+}
+.link-list,.footer-lists{
+    list-style:none;
+    padding: 0.3em;
+}
+.copy-right{
+    padding-left: 2em;
+    font-size: 1em;
+    color: var(--secondaFontColor);
+}
